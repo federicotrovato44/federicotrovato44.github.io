@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form id="delivery">
+
+    <label for="name">Nome</label>
+    <input type="text" name="name" placeholder="Nome">
+
+    <label for="lastname">Cognnome</label>
+    <input type="text" name="lastname" placeholder="Cognome">
+
+    <label for="address">Indirizzo</label>
+    <input type="text" name="address" placeholder="Indirizzo">
+
+    <label for="po">Civico</label>
+    <input type="number" name="po" placeholder="Civico">
+
+    <label for="zip">CAP</label>
+    <input type="number" name="zip" placeholder="CAP">
+
+    <label for="city">Città</label>
+    <input type="text" name="city" placeholder="Città">
+
+    <label for="province">Provincia</label>
+    <select name="prov">
+        <option value="MI">Milano</option>
+        <option value="TO">Torino</option>
+        <option value="GE">Genova</option>
+        <option value="PD">Padova</option>
+        <option value="VR">Verona</option>
+        <option value="VE">Venezia</option>
+        <option value="MB">Monza Brianza</option>
+        <option value="RO">Roma</option>
+    </select>
+
+    <label for="country">Nazione</label>
+    <input type="text" name="country" placeholder="Nazione">
+
+    <label for="phone">Telefono</label>
+    <input type="tel" name="phone" placeholder="Telefono">
+
+    <label for="mail">Email</label>
+    <input type="email" name="mail" placeholder="Email">
+
+    <label for="note"Note></label>
+    <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea>
+
+    <input type="submit" value="Invia">
+</form>
+<button type="reset" form="delivery">Reset form</button>
+</body>
+</html>
